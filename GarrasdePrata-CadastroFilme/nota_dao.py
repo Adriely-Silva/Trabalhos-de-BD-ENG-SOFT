@@ -27,7 +27,7 @@ class NotaDao:
         self.conexao.commit()
     
     def nota_media(self):
-        self.cursor.execute("SELECT AVG(nota), Filme_idFilme FROM nota GROUP BY Filme_idFilme")
+        self.cursor.execute("SELECT AVG(round(nota ,2)), Filme_idFilme FROM nota GROUP BY Filme_idFilme;")
         resultados = self.cursor.fetchall()
         notas = []
         for linha in resultados:

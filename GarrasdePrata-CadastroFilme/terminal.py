@@ -29,11 +29,11 @@ class Terminal:
     def tabela_produtora():
         print("\n4- O cadastro da produtora terá os seguintes campos para preencher, respectivamente:")
         print("---------------------------------------------------------------------------")   
-        print("# Código(idProdutora\n# Nome")
+        print("# Código(idProdutora)\n# Nome")
         print("---------------------------------------------------------------------------\n\n")
     
     def tabela_ator():
         print("\n5- O cadastro do(a) ator/atriz terá os seguintes campos para preencher, respectivamente:")   
         print("---------------------------------------------------------------------------")
-        print("# Código(idDiretor)\n# Nome\n# Data do Nascimento")
+        print("# Código(idAtor)\n# Nome\n# Data do Nascimento")
         print("---------------------------------------------------------------------------")

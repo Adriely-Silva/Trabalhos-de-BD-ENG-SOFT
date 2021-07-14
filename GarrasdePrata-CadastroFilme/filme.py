@@ -10,4 +10,4 @@ class Filme:
         self.id_diretor = id_diretor
 
     def to_string(self):
-        return 'Id: {} | Título: {} | Gênero: {} | Ano: {} | Classificação Indicativa: {} | Duração: {} | Id do(a) Diretor(a): {}'.format(self.id, self.titulo, self.genero, self.ano, self.classificacao_indicativa, self.duracao)
+        return 'Id: {} | Título: {} | Gênero: {} | Ano: {} | Classificação Indicativa: {} | Duração: {} | Id do(a) Diretor(a): {}'.format(self.id, self.titulo, self.genero, self.ano, self.classificacao_indicativa, self.duracao, self.id_diretor)
