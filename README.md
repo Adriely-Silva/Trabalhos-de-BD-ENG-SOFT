@@ -20,3 +20,4 @@ Requesitos do projeto:
 3. Pode altera e exluir grupo
 4.Pode adcionar conatatos em um grupo
 
+!!!O conteúdo completo da aplicação está na pasta DocumentoProjeto
